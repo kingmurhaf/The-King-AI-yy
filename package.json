@@ -1,0 +1,42 @@
+{
+  "name": "king-ai",
+  "version": "24.2.0",
+  "description": "The King AI - مساعدك الذكي العربي | Arabic AI Assistant that works offline",
+  "author": "King AI",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "homepage": "https://github.com/yourusername/king-ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/king-ai.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "serve": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5",
+    "vite-plugin-pwa": "^0.21.0"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "arabic",
+    "offline-first",
+    "pwa",
+    "react",
+    "vite"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
